@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#FFE6FA 5%, #A8ECE9 50%);
+  background-attachment: fixed;
+}
+
+form {
+  width: 450px;
+  min-height: 450px;
+  height: auto;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 0 0px 15px #333;
+  padding: 2%;
+  background-image: linear-gradient(-220deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+
+form .container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+header h2 {
+  font-size: 250%;
+  color: #333;
+  margin: auto;
+  text-align: center;
+}
+
+.input-item {
+  background: #fff;
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#eye {
+  background: white;
+  color: #333;
+  margin: 6px 0 0 0;
+  margin-left: -20px;
+  padding: 15px 9px 19px 0px;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+  position: relative;
+  right: -2px;
+  top: -.2%;
+  z-index: 5;
+  }
+
+ .form-input{
+  width: 240px;
+  height: 50px;
+  margin-top: 2%;
+  padding: 15px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;  
+}
+
+input[id="text-input"]{
+  width: 250px;
+}
+
+button {
+  display: inline-block;
+  color: #333;
+  width: 280px;
+  height: 50px;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  transition: all 0.2s linear; 
+   margin: 7% auto;
+  letter-spacing: 0.05em;
+}
+
+.submits {
+  width: 48%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+}
+
+.frgt-pass {background: transparent;}
+.sign-up {background: #B8F2E6;}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: none;
+}
